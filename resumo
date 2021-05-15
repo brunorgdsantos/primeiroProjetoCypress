@@ -1,0 +1,10 @@
+git init (iniciar repositorio)
+.gitignore (para colocar os nomes dos arquivos que não serão enviados ao repositório), ex:
+.DS_Store
+-cypress/screenshots/
+-cypress/videos/
+-node_modules
+node -v && npm -v (para ver as versões do node e do npm)
+npm init (criar o arquivo package.json)
+npm install cypress --dev (instalar o cypress)
+npx cypress open (abre a aplicação electron, cria arquivo cypress.json e um diretorio chamado cypress)
